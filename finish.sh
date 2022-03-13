@@ -5,7 +5,6 @@ set -e
 if [ "$(id -u)" != "0" ]; then
    echo " this script must be run as root" 1>&2
    echo
-   exit 1
 fi
 
 echo " finishing your puppet installation ... "
